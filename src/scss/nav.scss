@@ -1,0 +1,113 @@
+@import "./settings/_fonts";
+@import "reset.css";
+@import "./settings/_colors";
+
+
+
+.start {
+  display: flex;
+  justify-content: space-between;
+  height: 763px;
+  border-bottom: 1px solid black;
+}
+
+.title_photo {
+  width: 50%;
+  height: 757px;
+
+  border: 3px solid black;
+}
+
+.container_nav_title {
+  color: $color;
+  padding-top: 25px;
+  padding-inline: 40px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  &_acc {
+    //color: $thiColor;
+    display: flex;
+    justify-content: end;
+   &_log {
+     margin-right: 20px;
+
+
+     color: $thiColor;
+     cursor: pointer;
+
+
+   }
+    &_create {
+
+
+     color: $thiColor;
+     cursor: pointer;
+
+    }
+  }
+  &_option {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    p {
+      margin-left: 30px;
+        padding: 10px 10px 0 10px;
+
+      height: 30px;
+
+    }
+    p:hover{
+      border: 1px solid $color;
+
+    }
+  }
+
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  &_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 165px;
+    width: 654px;
+  }
+  h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+}
+.title_btn {
+  margin-top: 70px;
+  .btn_give {
+    text-transform: uppercase;
+    border: 1px solid $secColor;
+    height: 80px;
+    width: 200px;
+    margin-right: 30px;
+    font-size: 25px;
+
+  }
+  .btn_org {
+    text-transform: uppercase;
+    border: 1px solid $secColor;
+    height: 80px;
+    width: 200px;
+    font-size: 25px;
+
+  }
+}
+.buffer {
+  width: 253px;
+  height: 33px;
+}

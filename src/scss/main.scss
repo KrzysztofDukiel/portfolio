@@ -1,6 +1,21 @@
 @import "./settings/_fonts";
 @import "reset.css";
-
+@import "./settings/_colors";
+@import "nav";
 body {
   font-family: $font-base;
+  color: $color;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1344px;
+}
+
+button {
+  border: none;
+  background-color: $bgc;
+
 }
