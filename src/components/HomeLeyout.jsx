@@ -9,11 +9,16 @@ function HomeLeyout() {
                 <div className="container_nav_title">
                     <div className="nav">
                         <div className="nav_acc">
-                            <button className="nav_acc_log">Zaloguj</button>
-                            <button className="nav_acc_create">Załóż konto</button>
+                            <a  href=""  className="nav_acc_log">Zaloguj</a>
+                            <a   href="" className="nav_acc_create">Załóż konto</a>
                         </div>
                         <div className="nav_option">
-                            <p>Start</p><p>O Co Chodzi</p><p>O nas</p><p>Fundacja i organizacje</p><p>Kontakt</p>
+                            <a href="#">Start</a>
+                            <a href="#">O Co Chodzi</a>
+                            <a href="#">O nas</a>
+                            <a href="#">Fundacja i organizacje</a>
+                            <a href="#">Kontakt</a>
+
                         </div>
                         </div>
                         <div className="title">
@@ -22,12 +27,15 @@ function HomeLeyout() {
                                </h1>
                                 <h1> Oddaj niechciane rzeczy w zaufane rece</h1>
                             <img className="buffer"  src="../assets/Decoration.svg" alt=""/>
-                            <div className="title_option">
+
+                                <div className="title_option">
 
                             </div>
-                                <div className="title_btn">
-                                <button className="btn_give">oddaj rzeczy</button>
-                                <button className="btn_org">zorganizuj zbiórkę</button>
+                                <div className="title_a">
+                                    <a href="" className="a_give">oddaj rzeczy</a>
+                                    <a href="" className="a_org">zorganizuj zbiórkę</a>
+
+
 
                                 </div>
                             </div>

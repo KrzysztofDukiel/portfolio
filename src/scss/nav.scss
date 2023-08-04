@@ -12,7 +12,7 @@
 }
 
 .title_photo {
-  width: 50%;
+  width: 40%;
   height: 757px;
 
   border: 3px solid black;
@@ -21,7 +21,7 @@
 .container_nav_title {
   color: $color;
   padding-top: 25px;
-  padding-inline: 40px;
+  padding-inline: 200px;
 }
 
 .nav {
@@ -32,35 +32,33 @@
     display: flex;
     justify-content: end;
    &_log {
-     margin-right: 20px;
-
-
-     color: $thiColor;
-     cursor: pointer;
-
-
+     padding-left: 20px;
    }
-    &_create {
-
-
+    &_create, &_log {
      color: $thiColor;
      cursor: pointer;
-
+      font-size: 13px;
+    padding: 10px;
     }
+  &_create:hover, &_log:hover {
+    border: 1px solid $bgcYellow;
   }
+  }
+
   &_option {
-    margin-top: 30px;
+    padding-top: 30px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    p {
+    a {
       margin-left: 30px;
         padding: 10px 10px 0 10px;
 
+      color: $color;
       height: 30px;
 
     }
-    p:hover{
+    a:hover{
       border: 1px solid $color;
 
     }
@@ -73,7 +71,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  padding-top: 200px;
   &_text {
     display: flex;
     justify-content: center;
@@ -83,27 +81,31 @@
     width: 654px;
   }
   h1 {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-size: 25px;
   }
 }
-.title_btn {
-  margin-top: 70px;
-  .btn_give {
+.title_a {
+  padding-top: 70px;
+  .a_give {
     text-transform: uppercase;
     border: 1px solid $secColor;
-    height: 80px;
-    width: 200px;
+
+
     margin-right: 30px;
     font-size: 25px;
+    padding: 30px;
+
 
   }
-  .btn_org {
+  .a_org {
     text-transform: uppercase;
     border: 1px solid $secColor;
-    height: 80px;
-    width: 200px;
+    padding: 30px;
+
+
     font-size: 25px;
+
 
   }
 }

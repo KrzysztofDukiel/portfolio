@@ -2,9 +2,11 @@
 @import "reset.css";
 @import "./settings/_colors";
 @import "nav";
+@import "Counter";
 body {
   font-family: $font-base;
   color: $color;
+  box-sizing: border-box;
 }
 
 .container{
@@ -12,6 +14,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 1344px;
+  margin-inline: auto;
 }
 
 button {
@@ -19,3 +22,9 @@ button {
   background-color: $bgc;
 
 }
+
+a {
+  color: $color;
+  text-decoration: none;
+}
+

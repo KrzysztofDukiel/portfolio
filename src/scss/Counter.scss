@@ -1,0 +1,37 @@
+@import "./settings/_fonts";
+@import "reset.css";
+@import "./settings/_colors";
+
+
+.counter_sec {
+  background: transparent url('../assets/3 Columns Background.png');
+  height: 384px;
+
+}
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &_give, &_sup, &_org {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+
+    h2 {
+      font-size: 80px;
+    }
+    h4 {
+      margin-top: 30px;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+    p {
+      margin-top: 20px;
+      font-size: 15px;
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import HomeLeyout from "./HomeLeyout.jsx";
+import Counter from "./counter.jsx";
 
 
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
     return (
         <>
             <HomeLeyout/>
+            <Counter/>
         </>
     )
 }
