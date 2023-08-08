@@ -1,0 +1,84 @@
+@import "./settings/_fonts";
+@import "reset.css";
+@import "./settings/_colors";
+
+.steps_title {
+  margin-inline: 742px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h2 {
+    font-size: 32px;
+    padding-bottom: 20px;
+  }
+}
+
+.steps_options {
+  background-color: $bgcGrey;
+  height: 325px;
+
+  &_chose, &_who, &_pack, &_order {
+    margin-top: 71px;
+    max-width: 158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h4 {
+      font-size: 17px;
+      margin-bottom: 10px;
+      text-align: center;
+
+    }
+    p {
+      margin-top: 10px;
+      font-size: 14px;
+      text-align: center;
+    }
+    .photo {
+      height: 83px;
+      width: 83px;
+      margin-bottom: 10px;
+    }
+  }
+  &_chose {
+    .photo {
+      background-image: url("../assets/shirt.png");
+    }
+  }
+  &_who {
+    .photo {
+      background: url("../assets/bag.png") no-repeat;
+    }
+  }
+  &_pack {
+    .photo {
+      background: url("../assets/lupa.png") no-repeat;
+    }
+  }
+  &_order {
+    .photo {
+      background: url("../assets/arrows.png.png") no-repeat;
+    }
+
+  }
+}
+
+.steps {
+  &_giveaway {
+    text-transform: uppercase;
+    border: 1px solid $secColor;
+
+    font-size: 30px;
+    padding: 30px;
+    margin: 30px auto 80px;
+    width: 310px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+}

@@ -1,12 +1,12 @@
 import "./scss/main.scss"
-import './App.css'
+import Home from "./components/Home.jsx";
 
 function App() {
 
 
   return (
     <>
-      <div className="test">font</div>
+      <Home/>
     </>
   )
 }

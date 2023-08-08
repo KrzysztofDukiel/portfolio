@@ -1,6 +1,37 @@
 @import "./settings/_fonts";
 @import "reset.css";
-
+@import "./settings/_colors";
+@import "nav";
+@import "Counter";
+@import "steps";
 body {
   font-family: $font-base;
+  color: $color;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1344px;
+  margin-inline: auto;
+}
+
+button {
+  border: none;
+  background-color: $bgc;
+
+}
+
+a {
+  color: $color;
+  text-decoration: none;
+}
+
+
+div.string {
+  height: 0.5px;
+  width: 70px;
+  background-color: $color;
 }

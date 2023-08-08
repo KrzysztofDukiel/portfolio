@@ -1,0 +1,124 @@
+@import "./settings/_fonts";
+@import "reset.css";
+@import "./settings/_colors";
+
+
+
+.start {
+  display: flex;
+  justify-content: space-between;
+  height: 957px;
+
+}
+
+.title_photo {
+  
+  height: 957px;
+  width: 885px;
+
+  background: transparent url('../assets/Hero Image.png') no-repeat center center padding-box;
+  background-size: cover;
+
+
+}
+
+.container_nav_title {
+  color: $color;
+  padding-top: 25px;
+  padding-inline: 100px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  &_acc {
+
+    display: flex;
+    justify-content: end;
+   &_log {
+     padding-left: 20px;
+   }
+    &_create, &_log {
+     color: $thiColor;
+     cursor: pointer;
+      font-size: 13px;
+    padding: 10px;
+      border: 1px solid transparent;
+    }
+  &_create:hover, &_log:hover {
+    border: 1px solid $bgcYellow;
+  }
+  }
+
+  &_option {
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    a {
+      margin-left: 30px;
+        padding: 10px 10px 0 10px;
+
+      color: $color;
+      height: 30px;
+      border: 1px solid transparent;
+
+    }
+    a:hover{
+      border: 1px solid $color;
+
+    }
+  }
+
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  &_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 165px;
+    width: 654px;
+  }
+  h1 {
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+  }
+}
+.title_a {
+  padding-top: 70px;
+  .a_give {
+    text-transform: uppercase;
+    border: 1px solid $secColor;
+
+
+    margin-right: 30px;
+    font-size: 25px;
+    padding: 30px;
+
+
+  }
+  .a_org {
+    text-transform: uppercase;
+    border: 1px solid $secColor;
+    padding: 30px;
+
+
+    font-size: 25px;
+
+
+  }
+}
+.buffer {
+  width: 253px;
+  height: 33px;
+  background-image: url('../assets/Decoration.svg');
+
+}
