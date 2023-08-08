@@ -4,6 +4,8 @@
 @import "nav";
 @import "Counter";
 @import "steps";
+@import "aboutus";
+@import "Forwho";
 body {
   font-family: $font-base;
   color: $color;
@@ -12,7 +14,7 @@ body {
 
 .container{
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
   width: 1344px;
   margin-inline: auto;

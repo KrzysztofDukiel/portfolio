@@ -1,0 +1,48 @@
+@import "./settings/_fonts";
+@import "reset.css";
+@import "./settings/_colors";
+
+.aboutus {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  &_info {
+
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 958px;
+    height: 935px;
+    background-color: $bgcGrey;
+    h2 {
+      margin-bottom: 20px;
+      font-size: 38px;
+      text-align: center;
+    }
+    p {
+      margin-top: 30px;
+      height: 152px;
+      width: 658px;
+      text-align: center;
+      line-height: 1.5;
+      font-size: 30px;
+    }
+    .sign {
+      position: absolute;
+      width: 209px;
+      height: 152px;
+      background-image: url(../assets/Signature.png);
+      right: 10%;
+      bottom: 10%;
+    }
+  }
+  &_photo {
+    background-image: url(../assets/People.png);
+    width: 942px;
+    height: 935px;
+  }
+
+}
