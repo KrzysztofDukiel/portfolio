@@ -3,6 +3,7 @@
 @import "./settings/_colors";
 @import "nav";
 @import "Counter";
+@import "steps";
 body {
   font-family: $font-base;
   color: $color;
@@ -28,3 +29,9 @@ a {
   text-decoration: none;
 }
 
+
+div.string {
+  height: 0.5px;
+  width: 70px;
+  background-color: $color;
+}

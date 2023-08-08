@@ -7,28 +7,32 @@
 .start {
   display: flex;
   justify-content: space-between;
-  height: 763px;
-  border-bottom: 1px solid black;
+  height: 957px;
+
 }
 
 .title_photo {
-  width: 40%;
-  height: 757px;
+  
+  height: 957px;
+  width: 885px;
 
-  border: 3px solid black;
+  background: transparent url('../assets/Hero Image.png') no-repeat center center padding-box;
+  background-size: cover;
+
+
 }
 
 .container_nav_title {
   color: $color;
   padding-top: 25px;
-  padding-inline: 200px;
+  padding-inline: 100px;
 }
 
 .nav {
   display: flex;
   flex-direction: column;
   &_acc {
-    //color: $thiColor;
+
     display: flex;
     justify-content: end;
    &_log {
@@ -39,6 +43,7 @@
      cursor: pointer;
       font-size: 13px;
     padding: 10px;
+      border: 1px solid transparent;
     }
   &_create:hover, &_log:hover {
     border: 1px solid $bgcYellow;
@@ -56,6 +61,7 @@
 
       color: $color;
       height: 30px;
+      border: 1px solid transparent;
 
     }
     a:hover{
@@ -83,6 +89,7 @@
   h1 {
     padding-bottom: 20px;
     font-size: 25px;
+    text-align: center;
   }
 }
 .title_a {
@@ -112,4 +119,6 @@
 .buffer {
   width: 253px;
   height: 33px;
+  background-image: url('../assets/Decoration.svg');
+
 }
