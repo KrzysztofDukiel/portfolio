@@ -33,4 +33,35 @@
     line-height: 1.3;
     align-items: center;
   }
+  &_fundations {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    width: 1344px;
+    &_options {
+      border-bottom: 1px solid $color;
+      padding-bottom: 30px;
+          margin-top: 10px;
+      &_text {
+        position: absolute;
+        right: 22px;
+        color: $color;
+
+      }
+      h4 {
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+
+    }
+  }
+  &_pages_a {
+    border: 1px solid transparent;
+    padding: 8px;
+    margin-left: 40px;
+  }
+  &_pages_a:hover {
+    border: 1px solid $color;
+  }
 }
