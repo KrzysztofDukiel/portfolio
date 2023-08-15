@@ -1,3 +1,5 @@
+import { Link as ScrollLink } from "react-scroll";
+
 function HomeLeyout() {
 
 
@@ -13,7 +15,9 @@ function HomeLeyout() {
                         </div>
                         <div className="nav_option">
                             <a href="#">Start</a>
-                            <a href="#">O Co Chodzi</a>
+                            <ScrollLink to="steps" smooth={true} duration={500}>
+                                O co chodzi?
+                            </ScrollLink>
                             <a href="#">O nas</a>
                             <a href="#">Fundacja i organizacje</a>
                             <a href="#">Kontakt</a>

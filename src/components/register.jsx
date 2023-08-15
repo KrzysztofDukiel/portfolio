@@ -31,11 +31,11 @@ function Register() {
 
                     <form action="">
                         <label htmlFor="email">Email</label>
-                        <input type="text" name="email" id="email"/>
+                        <textarea type="text" name="email" id="email" />
                         <label htmlFor="password">Hasło</label>
-                        <input type="text" name="password" id="password"/>
+                        <textarea type="text" name="password" id="password"/>
                         <label htmlFor="password">Powtórz Hasło</label>
-                        <input type="text" name="password" id="password"/>
+                        <textarea type="text" name="password" id="password"/>
                     </form>
                 <div className="register_options">
                     <a href="" className="register_options_login">Zaloguj się</a>
