@@ -1,7 +1,7 @@
 
-import foundation from "./data/foundation.jsx"
-import org from "./data/org.jsx";
-import local from "./data/local.jsx";
+import foundation from "../data/foundation.jsx"
+import org from "../data/org.jsx";
+import local from "../data/local.jsx";
 import {useState} from "react";
 function Forwho() {
     const [selectedContent, setSelectedContent] = useState([]);

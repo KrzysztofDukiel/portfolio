@@ -14,13 +14,24 @@ function HomeLeyout() {
                             <a href="" className="nav_acc_create">Załóż konto</a>
                         </div>
                         <div className="nav_option">
-                            <a href="#">Start</a>
-                            <ScrollLink to="steps" smooth={true} duration={500}>
-                                O co chodzi?
+                            <ScrollLink to="counter_sec" smooth={true} duration={500}>
+                               <p className="nav_option_button">Start</p>
                             </ScrollLink>
-                            <a href="#">O nas</a>
-                            <a href="#">Fundacja i organizacje</a>
-                            <a href="#">Kontakt</a>
+                            <ScrollLink to="steps" smooth={true} duration={500}>
+                                 <p className="nav_option_button">O co chodzi?</p>
+                            </ScrollLink>
+                            <ScrollLink to="aboutus" smooth={true} duration={500}>
+                                 <p className="nav_option_button">O nas</p>
+                            </ScrollLink>
+                            <ScrollLink to="forwho" smooth={true} duration={500}>
+                                 <p className="nav_option_button">Fundacja i organizacje</p>
+                            </ScrollLink>
+                            <ScrollLink to="contact" smooth={true} duration={500}>
+                                 <p className="nav_option_button">Kontakt</p>
+                            </ScrollLink>
+
+
+
 
                         </div>
                     </div>

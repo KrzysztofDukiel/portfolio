@@ -1,9 +1,9 @@
-import HomeLeyout from "./HomeLeyout.jsx";
-import Counter from "./counter.jsx";
-import Steps from "./steps.jsx";
-import Aboutus from "./aboutus.jsx";
-import Forwho from "./Forwho.jsx";
-import Contact from "./contact.jsx";
+import HomeLeyout from "./homepage/HomeLeyout.jsx";
+import Counter from "./homepage/counter.jsx";
+import Steps from "./homepage/steps.jsx";
+import Aboutus from "./homepage/aboutus.jsx";
+import Forwho from "./homepage/Forwho.jsx";
+import Contact from "./homepage/contact.jsx";
 
 
 function Home() {
