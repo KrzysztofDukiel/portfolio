@@ -71,7 +71,7 @@ function Register() {
                         />
                         <label htmlFor="password">Hasło</label>
                         <input
-                            type="text"
+                            type="password"
                             name="password"
                             id="password"
                             value={password}
@@ -79,7 +79,7 @@ function Register() {
                         />
                         <label htmlFor="repeatPassword">Powtórz Hasło</label>
                         <input
-                            type="text"
+                            type="password"
                             name="repeatPassword"
                             id="repeatPassword"
                             value={repeatPassword}
